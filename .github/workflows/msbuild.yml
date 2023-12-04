@@ -44,5 +44,4 @@ jobs:
         name: Release
         path: ${{env.SOLUTION_FILE_PATH}}/Raider/bin/Release
         if-no-files-found: warn
-        retention-days: 60
   
